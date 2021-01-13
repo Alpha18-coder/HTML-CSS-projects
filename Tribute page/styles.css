@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: Oswald;
+  box-sizing: border-box;
+}
+
+/* header */
+
+.header {
+  background-color: black;
+  margin-bottom: 100px;
+}
+h1 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* figcaption */
+
+main {
+  display: flex;
+  margin: 0 0 100px 450px;
+  align-content: center;
+  background-color: #fff;
+  box-sizing: content-box;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.26);
+  margin-top: 20px;
+  width: 500px;
+  height: 450px;
+}
+
+.container__title {
+  text-align: center;
+  padding: 20px;
+}
+
+.container__img {
+  margin-left: 140px;
+  border-radius: 100px;
+}
+
+.container__text {
+  font-size: medium;
+  margin: 0 80px 0 80px;
+  border-bottom: 3px solid gold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*Grid*/
+
+.grid {
+  display: grid;
+  margin-bottom: 40vh;
+  box-sizing: content-box;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 65% 30%;
+  grid-template-areas:
+    "header header "
+    "body1 body2"
+    "timeline1 timeline2";
+}
+
+.grid__title {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.418);
+  font-size: 30px;
+
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.grid__title > h4 {
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.grid__container {
+  grid-area: body1;
+  background-color: rgba(0, 0, 255, 0.753);
+  color: white;
+  font-weight: 100;
+}
+
+.grid__text {
+  margin-top: 15%;
+  padding: 0 50px 0 50px;
+}
+.grid__figure {
+  background-color: rgba(0, 255, 0, 0.514);
+  grid-area: body2;
+}
+
+.grid__figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20% 0 20%;
+  margin-top: 40px;
+}
+
+.grid__img {
+  border-radius: 50%;
+  height: 50vh;
+  margin-bottom: 20px;
+}
+
+.grid__profession {
+  text-align: center;
+}
+
+.grid__timeline1,
+.grid__timeline2 {
+  grid-area: timeline1;
+  display: flex;
+  text-align: center;
+}
+
+.grid__1984 {
+  background-color: #7cff7c;
+  padding-top: 30px;
+  color: black;
+}
+
+.grid__2014 {
+  background-color: #43ff43;
+  padding-top: 30px;
+}
+
+.grid__timeline2 {
+  grid-area: timeline2;
+}
+
+.grid__2017 {
+  background-color: #3f3fff;
+  padding-top: 30px;
+}
+
+.grid__2020 {
+  background-color: #1a1afc;
+  padding-top: 30px;
+}
+/* Timeline*/
+
+.timeline {
+  background-color: black;
+  box-sizing: content-box;
+  padding-top: 35px;
+  height: 90vh;
+  color: white;
+}
+
+h3,
+ul,
+li {
+  padding-top: 20px;
+}
+
+/*footer*/
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.747);
+}
+
+footer > cite {
+  color: black;
+}
