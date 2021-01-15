@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+    --background: linear-gradient(135deg, #0000007e 0%, #00000098 100%);
+}
+.body {
+    display: grid;
+    grid-template-columns: 70vh 70vh 90vh 10vh 10vh 30vh;
+}
+
+main {
+    background: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+}
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: var(--background), url(/assets/coding.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    color: white;
+}
+
+.header__title {
+    padding-bottom: 40px;
+}
+
+.header__subtitle {
+    padding: 0 30rem;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.header__button {
+    display: inline-block;
+    padding-top: 18px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    height: 60px;
+    margin: 0 47rem 0 47rem;
+    background-color: #242424;
+    border: 1px solid darkgray;
+}
+
+.header__button:hover{
+    background-color: lightgray;
+    color: black
+}
+
+/* section A */
+
+.section-a {
+    background-color: #f4f4f4;
+    height: 30vh;
+}
+.section-a > .container {
+    padding-top: 30px;
+    opacity: 0.8;
+}
+
+.container > h2 {
+    padding-bottom: 20px;
+}
+
+.content-box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1px;
+    padding: 0 20rem 5rem 20rem;
+}
+
+.content-box > p {
+    padding: 0 1em 3em 1em;
+    font-size: 20px;
+}
+
+/* section B */
+
+.section-b {
+    margin: 50px;
+}
+
+.content-wrap {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card {
+    margin: 0 15px; 
+    width: 15rem;
+    height: 30rem;
+    box-sizing: content-box;
+    background: white;
+}
+
+.image-card {
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+.card-title {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+/* section C */
+
+.section-c {
+    background: #f4f4f4;
+    padding: 5em;
+}
+
+.container__title{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.section-c > .container > p {
+    font-size: 18px;
+    color: rgb(49, 49, 49);
+    padding: 0 20rem;
+}
+
+/* Section D */
+
+
+.section-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box {
+    display: inline-block;
+    height: 38vh;
+    padding: 1rem 8rem;
+    color: white;
+}
+
+.box:first-child {
+    background: #2690d4;
+}
+
+.box > h3 {
+    font-size: 35px;
+    margin: 40px;
+}
+
+.box > p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;    
+}
+.box > span {
+    font-size: 15px;
+}
+
+/* footer */
+
+.footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
