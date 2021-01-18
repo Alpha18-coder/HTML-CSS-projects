@@ -1,0 +1,201 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+    background: #F7FCFF;
+    display: grid;
+    grid-template-columns: 0fr 5fr;
+    color: #0C0138;
+}
+
+/* side bar */
+
+.side-bar, .social-icons {
+    z-index: 3;
+    background: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px 25px 10px;
+}
+
+.side-bar{
+    filter: drop-shadow(1px 1px 2px darkgray);
+}
+
+.unicorn {
+    width: 80px;
+}
+
+.social-icons{
+    margin-top: 15rem;
+}
+
+.social-icons > img {
+    width: 30px;
+    margin: 20px 0;
+}
+
+
+/* hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FBFBFB;
+}
+
+
+/* top */
+
+.top{
+    background: #FBFBFB;
+    height: 5rem;
+    z-index: 2;
+}
+
+ul {
+    display: flex;
+    padding-left: 50rem;
+    list-style: none;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+
+h1 {
+    margin: 5rem 0 0 10rem;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 35rem;
+}
+
+.image {
+    width: 20rem;
+    height: 20rem;
+    background: #E81F42;
+    padding: 120px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    left: 45rem;
+    top: 10rem;
+    z-index: 4;
+}
+
+/* body */
+
+.body {
+    padding-left: 8.5rem;
+    padding-top: 10rem;
+    background: #F7FCFF;
+    box-shadow: inset 0px 0px 5px 5px lightgray;
+    z-index: 1;
+    border-bottom: 20px solid #E81F42;
+}
+
+.box-content {
+    display: flex;
+    box-shadow: 0px 3px 5px 1px lightgrey;
+    margin: 30px;
+    padding: 5px;
+    background: #FBFBFB;
+    height: 100px;
+    width: 25rem;
+    border-radius: 5px;
+}
+
+.box-content > img {
+    width: 50px;
+    height: 50px;
+    margin: 25px 10px;
+}
+#box2{
+    margin-left: 10rem;
+}
+
+.fig-content{
+    margin: 20px;
+}
+
+.fig-content > h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.fig-content > p {
+    color: gray;
+}
+
+.rocket{
+    float: left;
+    position: relative;
+    left: 40rem;
+    bottom: 1rem;
+    height: 12rem;
+}
+
+.about {
+    margin-top: 10rem;
+    position: relative;
+    right: 10rem;
+    width: 30rem;
+}
+
+.about > h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.box-info {
+    background: #FBFBFB;
+    box-shadow: 0px 3px 5px 1px lightgrey;
+    margin-left: 12rem;
+    border-radius: 5px;
+    font-size: 20px;   
+    padding: 25px 30px;
+    width: 25em;
+    height: 10em;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.proyectos {
+    margin: 10rem 10rem 0 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box > img {
+    margin: 50px 20px;
+    border-radius: 20px;
+    display: block;
+    object-fit: fill;
+    width: 25rem;
+    height: 20rem;
+    border: 1px solid black;
+}
